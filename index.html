@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clicker - local storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <header>
+          Clicker Game
+        </header>
+        <button class="save">Save</button>
+        <button class="clear">Clear</button>
+      </div>
+      <div class="game">
+        <div class="panel noselect">
+          <div class="board">
+            <div class="multiply off" data-cash="100">x2/100 clicks</div>
+            <div class="multiply off" data-cash="400">x4/400 clicks</div>
+            <div class="multiply off" data-cash="2000">x8/2k clicks</div>
+            <div class="multiply off" data-cash="10000">x16/10k clicks</div>
+            <div class="multiply off" data-cash="1000000">x32/1M clicks</div>
+          </div>
+          <div class="speed"></div>
+        </div>
+        <div class="score">
+          <div class="clicker noselect">Click ME</div>
+          <div class="counter noselect">0</div>
+          <div class="numbers"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
